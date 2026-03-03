@@ -1,4 +1,4 @@
-package exercicio01;
+package AULA03;
 
 import java.text.DecimalFormat;
 import java.util.Random;

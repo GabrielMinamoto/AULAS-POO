@@ -1,4 +1,4 @@
-package exercicio01;
+package AULA03;
 
 public class contaBanco {
     //atributos

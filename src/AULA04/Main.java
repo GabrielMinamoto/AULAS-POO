@@ -8,6 +8,7 @@ public class Main {
         String nome;
         double valor;
         int qtd;
+        double porcentagem;
 
         System.out.println("Digite o nome do produto -->");
         nome=e.next();
@@ -19,7 +20,9 @@ public class Main {
         Produto p =new Produto(nome, valor, qtd);
 
         System.out.println("Digite o valor de porcentagem -->");
-        p.porcentagem(e.nextDouble());
+        porcentagem = e.nextDouble();
+
+        p.porcentagem(porcentagem);
         System.out.println(("Valor final -->") + p.valor) ;
 
 
